@@ -23,16 +23,22 @@
 .navbar{
     background-color: rgb(5, 82, 18);
     align-items: center;
+   
 }
 
-/* @media only screen and (max-width: 400px){ */
-    /* #navMinuo{ */
-        /* float: none; */
-        /* margin: 50px; */
-        /* margin-top: 0px; */
+@media only screen and (max-width: 400px){
+    .navbar{ 
+        float: none;
+        margin: 20px;
+        margin-top: 0px;
 
-    /* } */
-/* } */
+    }
+    .navUl{
+        display: flex;
+        float: right;
+    }
+
+}
 .navUl{
     display: flex;
     float: right;
@@ -70,4 +76,33 @@
 }
 .textDiv{
     margin: 30px 500px;
+}
+.fotterUl{
+    display:flex;
+    float:right;
+}
+.fotterLi{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+}
+.fotterA{
+    color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0px 50px;
+    text-decoration: none;
+}
+.navFott{
+    margin: 50px 300px;
+}
+.endFotter{
+    margin: 50px 550px;
+}
+.btn-primary{
+    background-color:rgb(5, 82, 18) ;
+    border-color: rgb(25, 146, 45);
 }
