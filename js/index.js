@@ -33,26 +33,14 @@ Forest.addEventListener("click", function() {
 
 
 
+// var addToCart = document.getElementById("addToCart")
+// var imgSrc = document.querySelector('.card .card-img-top').src;
+// var title = document.querySelector('.card .card-title').textContent;
+// var text = document.querySelector('.card .card-text').textContent;
+
+// addToCart.addEventListener('submit',function(e){
+//     e.preventDefault{}
+//     localStorage.setItem('addToCart' ,)
+// })
 
 
-// document.addEventListener("DOMContentLoaded", function() {
-//     const addToCartButtons = document.querySelectorAll(".add-to-cart");
-
-//     addToCartButtons.forEach(button => {
-//       button.addEventListener("click", function() {
-//         const card = this.closest(".card");
-//         const imgSrc = card.querySelector(".card-img-top").getAttribute("src");
-//         const title = card.querySelector(".card-title").textContent;
-//         const text = card.querySelector(".card-text").textContent;
-
-//         const item = {
-//           img: imgSrc,
-//           title: title,
-//           text: text
-//         };
-
-//         // Add the 'item' object to your shopping cart or perform other actions here
-//         console.log("Added to cart:", item);
-//       });
-//     });
-//   });
